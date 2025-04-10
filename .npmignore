@@ -1,0 +1,7 @@
+# Include only specific files
+!/package.json
+!/dist/
+!/README.md
+
+# Ignore everything else
+*

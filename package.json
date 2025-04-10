@@ -1,0 +1,34 @@
+{
+  "name": "@pradeexsu/use-media",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A lightweight and easy-to-use React hooks library that provides access to the user's microphone and camera through modern browser APIs.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "microphone",
+    "camera",
+    "stream"
+  ],
+  "author": "Pradeep Suthar <pradeexsu@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@stream-io/video-react-sdk": "1.14.1",
+    "react": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0"
+  }
+}
