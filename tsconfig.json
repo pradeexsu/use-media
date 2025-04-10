@@ -3,6 +3,7 @@
     "target": "ES5",
     "module": "ESNext",
     "declaration": true,
+    "baseUrl": ".",
     "outDir": "dist",
     "jsx": "react",
     "moduleResolution": "node",

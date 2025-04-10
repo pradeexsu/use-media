@@ -1,7 +1,6 @@
-# Include only specific files
-!/package.json
-!/dist/
-!/README.md
-
-# Ignore everything else
-*
+node_modules
+src
+.gitignore
+package-lock.json
+.npmignore
+tsconfig.json
