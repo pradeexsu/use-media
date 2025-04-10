@@ -2,6 +2,7 @@
   "name": "@pradeexsu/use-media",
   "version": "1.0.0",
   "type": "module",
+  "private": "false",
   "description": "A lightweight and easy-to-use React hooks library that provides access to the user's microphone and camera through modern browser APIs.",
   "main": "dist/index.js",
   "scripts": {
